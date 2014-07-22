@@ -36,7 +36,8 @@ h3 {
 }
 
 .sidebar {
-    background: rgb(61, 79, 93);
+    background: rgb(52, 141, 10);
+    
     color: #fff;
 }
 
@@ -188,4 +189,5 @@ h3 {
     position: fixed;
     top: 0;
     bottom: 0;
+
 }
