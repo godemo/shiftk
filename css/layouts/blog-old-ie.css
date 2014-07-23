@@ -9,6 +9,47 @@ a {
     color: rgb(61, 146, 201);
 }
 
+.divider {
+    position: relative;
+    top: 0;
+    left: 0;
+    margin: 1rem 1.5rem;
+    height: auto;
+    padding: 0;
+    line-height: 1;
+    border: none;
+    background-color: transparent;
+    font-size: .875rem;
+    font-weight: 700;
+    text-align: center;
+    text-transform: uppercase;
+    color: rgba(0,0,0,.2);
+    margin: 1rem 0;
+
+}
+
+.divider:after, .divider:before {
+    position: absolute;
+    content: " ";
+    z-index: 3;
+    width: 50%;
+    top: 50%;
+    height: 0;
+    border-top: 1px solid rgba(0,0,0,.1);
+    border-bottom: 1px solid rgba(248, 248, 248, 0.8);
+}
+
+.divider:before {
+    left: 0;
+    margin-left: -1.5rem;
+}
+
+.divider:after{
+    left: auto;
+    right: 0;
+    margin-right: -1.5rem;
+}
+
 a:hover,
 a:focus {
     text-decoration: underline;
